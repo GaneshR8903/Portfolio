@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,7 +20,6 @@
 
 html{
     font-size: 62.5%;
-    overflow: hidden;
 }
 
 body{
@@ -39,6 +38,11 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    transition: .3s;
+}
+
+.header.sticky{
+    background: var(--bg-color);
 }
 
 .logo{
@@ -209,7 +213,6 @@ section{
     border-radius: 50%;
     font-size: 30px;
     color: var(--main-color);
-    text-decoration: none;
     z-index: 1;
     overflow: hidden;
     transition: .5s;
@@ -236,7 +239,7 @@ section{
     width: 100%;
 }
 
-.home-sci::before{
+/* .home-sci::before{
     content: '';
     position: absolute;
     top: 0;
@@ -247,7 +250,7 @@ section{
     animation: showRight 1s ease forwards;
     animation-delay: 2.5s;
     z-index: 2;
-}
+} */
 
 .home-imgHover {
     position: absolute;
