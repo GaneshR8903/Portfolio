@@ -100,7 +100,7 @@ section{
 .home{
     display: flex;
     align-items: center;
-    background: url('/Portfolio/images/Portfolio.jpg');
+    background: url('https://raw.githubusercontent.com/GaneshR8903/Portfolio/main/images/Portfolio.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -782,7 +782,7 @@ span{
     animation-delay: calc(.3s * var(--i));
 }
 
-.animate.scroll{
+/* .animate.scroll{
     transition: 1s ease;
     transition-delay: calc(.3s / var(--i));
 }
@@ -790,7 +790,7 @@ span{
 .about.show-animate .animate.scroll{
     transition-delay: calc(.3s * var(--i));
     width: 0;
-}
+} */
 
 @media(max-width: 1200px){
     
