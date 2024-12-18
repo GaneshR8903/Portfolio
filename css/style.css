@@ -100,7 +100,7 @@ section{
 .home{
     display: flex;
     align-items: center;
-    background: url('../images/Portfolio.jpg');
+    background: url('/Portfolio/images/Portfolio.jpg');
     background-size: cover;
     background-position: center;
 }
