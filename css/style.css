@@ -20,6 +20,7 @@
 
 html{
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body{
@@ -79,7 +80,7 @@ body{
 
 .navbar a:hover,
 .navbar a.active {
-    color:#00abf0;
+    color:var(--main-color);
 }
 
 
@@ -820,16 +821,6 @@ span{
 }
 
 @media(max-width:768px){
-
-    .home {
-        display: flex;
-        align-items: center;
-        background: url('https://raw.githubusercontent.com/GaneshR8903/Portfolio/main/images/Portfolio_mobile.jpg');
-        background-size: cover;
-        background-position: center;
-    }
-
-
     .header{
         background: var(--bg-color);
     }
@@ -912,16 +903,6 @@ span{
     .home-sci a{
         width: 38px;
         height: 38px;
-    }
-}
-
-@media (max-width: 480px) {
-    .home {
-        display: flex;
-        align-items: center;
-        background: url('https://raw.githubusercontent.com/GaneshR8903/Portfolio/main/images/Portfolio_small.jpg');
-        background-size: cover;
-        background-position: center;
     }
 }
 
