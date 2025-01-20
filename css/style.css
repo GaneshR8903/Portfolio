@@ -747,6 +747,7 @@ span{
     flex-wrap: wrap;
     padding: 2rem 9%;
     background: var(--second-bg-color);
+    z-index: 100;
 }
 
 .footer-text,
